@@ -14,18 +14,3 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
-/**
- * @description 颜色宏
- *
- * @param  r 红
- * @param  g 绿
- * @param  b 蓝
- *
- * @return 颜色 #94D2A4
- */
-#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
-
-/*****
- * @description导航条背景色
- */
-#define NARBARCOLOR RGBCOLOR(213,79,51)	
